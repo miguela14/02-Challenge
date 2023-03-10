@@ -1,9 +1,10 @@
+/* universal selector */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* body selector and background color */
 body {
     background-color: #d9dcd6;
 }
@@ -23,7 +24,7 @@ header h1 {
 header h1 .seo {
     color: #d9dcd6;
 }
-
+/* changed the div to nav inside the header */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -81,23 +82,23 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/* consolidated .benefit-lead, .benefit-brand, and .benefit-cost to .benifit-item */
 .benefit-item {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* consolidated .benefit-lead h3, .benefit-brand h3, and .benefit-cost h3 to .benifit-item h3 */
 .benefit-item h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* consolidated .benefit-lead img, .benefit-brand img, and .benefit-cost img to .benifit-item */
 .benefit-item img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* consolidated main/section/class to .search-item */
 .search-item {
     margin-bottom: 20px;
     padding: 50px;
@@ -106,23 +107,23 @@ p {
     background-color: #0072bb;
     color: #ffffff
 }
-
+/* consolidated main/section/class to .search-item img*/
 .search-item img {
     max-height: 200px;
 }
-
+/* consolidated main/section/class to .search-item h2 */
 .search-item h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
